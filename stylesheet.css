@@ -1,0 +1,84 @@
+body
+{
+    font-family: Arial;
+    background-color: #656176;
+}
+
+h1
+{
+    color: #F8F1FF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.InfoBlock
+{
+    background-color: #DECDF5;
+    margin: 50px;
+    padding: 5px 10px 500px 10px;
+    opacity: 0.9;
+    height: 10px;
+}
+
+.GlossaryTable
+{
+    background-color: #DECDF5;
+    margin: 50px;
+    padding: 5px 10px 500px 10px;
+    opacity: 0.9;
+}
+
+tr
+{
+    padding: 10px;
+    transition: background-color 1s ease-out 100ms;
+}
+
+tr:hover
+{
+    background-color: #F8F1FF
+}
+
+th
+{
+    font-weight: normal;
+    vertical-align: top;
+}
+
+a
+{
+    color: #534D56;
+}
+
+a:hover
+{
+    color: #1B998B;
+}
+
+.LinksOutsideDiv
+{
+    color: #DECDF5;
+    font-size: large;
+}
+
+li
+{
+    padding: 5px;
+}
+
+blockquote
+{
+    background-color: #F8F1FF;
+    margin-right: 600px;
+    font-size: larger;
+}
+
+table
+{
+    font-weight: normal;
+}
+
+::selection
+{
+    background-color: #F8F1FF;
+}

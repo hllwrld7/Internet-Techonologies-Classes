@@ -3,22 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>My first page</title>
-    <style>
-        tr {padding: 10px; transition: background-color 1s ease-out 100ms;}
-        tr:hover {background-color: #F8F1FF}
-        th {font-weight: normal}
-        a {color: #534D56; font-size: large}
-        a:hover {color: #1B998B}
-        li {padding: 5px}
-        ::selection {background-color: #F8F1FF}
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body style="font-family: Arial; background-color: #656176">
-<h1 style=" color: #F8F1FF;text-align: center; padding-top: 50px">Hello HTML!</h1>
-<div style="background-color: #DECDF5; margin: 50px; padding: 5px 10px 500px 10px; opacity: 0.9; height: 10px">
+<body>
+<h1>Hello HTML!</h1>
+<div class="InfoBlock">
     <ul style="text-align: center">
-        <li><a href="List4-B.html">My favourite character</a></li>
-        <li><a href="List4-C.html">Chainsaw Man Glossary</a></li>
+        <li><a class="LinksInsideDiv" href="List4-B.html">My favourite character</a></li>
+        <li><a class="LinksInsideDiv" href="List4-C.html">Chainsaw Man Glossary</a></li>
     </ul>
 </div>
 </body>
